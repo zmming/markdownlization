@@ -13,7 +13,10 @@ class markdownlization:
     def convert2html(self,text):
         html = markdown.markdown(text)
         return html
-    
+
+    def tital(self, text, n):
+        pre='#'*n
+        return pre+text    
 
 
 if __name__=='__main__':
