@@ -14,7 +14,7 @@ class markdownlization:
         html = markdown.markdown(text)
         return html
 
-    def tital(self, text, n):
+    def title(self, text, n):
         pre='#'*n
         return pre+text    
 
